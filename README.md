@@ -15,4 +15,4 @@ You can use the raw model for linking images with text in a shared embedding spa
     3. Run app:
        'streamlit run app.py'
 ---
-<img width="367" alt="sc" src="">
+<img width="800" alt="sc" src="ss.png">
