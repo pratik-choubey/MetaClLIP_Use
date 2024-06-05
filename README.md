@@ -11,8 +11,9 @@ You can use the raw model for linking images with text in a shared embedding spa
   * Install:
     1. clone the repo :
        'git clone https://github.com/pratik-choubey/MetaClLIP_Use.git'
-    2. !pip install streamlit
-    3. Run app:
+    2. install the requirements: 'pip install -r requirements.txt'
+    3. !pip install streamlit
+    4. Run app:
        'streamlit run app.py'
 ---
 <img width="800" alt="sc" src="ss.png">
