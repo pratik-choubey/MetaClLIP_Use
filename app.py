@@ -8,9 +8,9 @@ import os
  
 
 #load a pretrained model
-model = CLIPModel.from_pretrained("local_model")
-processor = CLIPProcessor.from_pretrained("local_model")
-tokenizer = AutoTokenizer.from_pretrained("local_model")
+model = CLIPModel.from_pretrained("facebook/metaclip-b32-400m")
+processor = CLIPProcessor.from_pretrained("facebook/metaclip-b32-400m")
+tokenizer = AutoTokenizer.from_pretrained("facebook/metaclip-b32-400m")
 # Function to encode text
 def encode_text(text):
     inputs = tokenizer(text, padding=True, return_tensors="pt")
